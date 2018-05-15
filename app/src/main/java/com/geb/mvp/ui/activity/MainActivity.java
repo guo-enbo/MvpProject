@@ -50,8 +50,6 @@ public class MainActivity extends BaseActivity<MainView,Presenter<MainView>> imp
     @Override
     public void getData(String response) {
 
-
-
     }
 
 
