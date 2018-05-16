@@ -23,7 +23,7 @@ public class ModelImpl implements LoginModel {
 
             @Override
             public void onSuccess(int statusCode, BannerBean bannerBean) {
-                callBackListener.onSccess(bannerBean);
+                callBackListener.onSuccess(bannerBean);
             }
 
             @Override
@@ -45,7 +45,7 @@ public class ModelImpl implements LoginModel {
 
             @Override
             public void onSuccess(int statusCode, BannerBean bannerBean) {
-                callBackListener.onSccess(bannerBean);
+                callBackListener.onSuccess(bannerBean);
             }
 
             @Override

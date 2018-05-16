@@ -27,7 +27,7 @@ public class Presenter<T extends IView> extends IPresenter<T> {
             }
 
             @Override
-            public void onSccess(Object repsonce) {
+            public void onSuccess(Object repsonce) {
                 if(view!=null){
                     view.login(repsonce);
                 }
@@ -46,7 +46,7 @@ public class Presenter<T extends IView> extends IPresenter<T> {
             }
 
             @Override
-            public void onSccess(Object repsonce) {
+            public void onSuccess(Object repsonce) {
                 if(view!=null){
                     view.getNews(repsonce);
                 }

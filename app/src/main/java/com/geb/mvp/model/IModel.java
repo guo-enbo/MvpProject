@@ -10,7 +10,7 @@ public interface IModel{
        interface CallBackListener{
            void onError(String error);
 
-           void onSccess(Object repsonce);
+           void onSuccess(Object repsonce);
        }
 
 
